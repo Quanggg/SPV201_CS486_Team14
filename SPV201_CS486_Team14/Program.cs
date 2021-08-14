@@ -18,7 +18,7 @@ namespace SPV201_CS486_Team14
                 SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm("abc"));
+            Application.Run(new MainForm("Data Source=DESKTOP-TJ7C5R7;Initial Catalog=CS486_Team14_DB;Integrated Security=True"));
         }
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         private static extern bool SetProcessDPIAware();
