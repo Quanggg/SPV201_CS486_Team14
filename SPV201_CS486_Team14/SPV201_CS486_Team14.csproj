@@ -59,6 +59,18 @@
     <Compile Include="ExaminerForm.Designer.cs">
       <DependentUpon>ExaminerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormConnectDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConnectDB.designer.cs">
+      <DependentUpon>FormConnectDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIntroduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIntroduction.designer.cs">
+      <DependentUpon>FormIntroduction.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,12 @@
     <EmbeddedResource Include="ExaminerForm.resx">
       <DependentUpon>ExaminerForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormConnectDB.resx">
+      <DependentUpon>FormConnectDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIntroduction.resx">
+      <DependentUpon>FormIntroduction.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ReserveGroupForm.resx">
       <DependentUpon>ReserveGroupForm.cs</DependentUpon>
@@ -117,6 +136,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plug.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
