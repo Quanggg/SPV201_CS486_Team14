@@ -52,6 +52,7 @@ namespace IntroductionScreen
                 MessageBox.Show("Cannot connect to database. Please try again!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             connecting = false;
+            connectBtn.Image = global::SPV201_CS486_Team14.Properties.Resources.plug;
         }
     }
 }
