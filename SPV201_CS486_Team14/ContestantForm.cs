@@ -35,7 +35,15 @@ namespace SPV201_CS486_Team14
 
         private void btnContestant_Click(object sender, EventArgs e)
         {
+            labelContestant.Text = ((Button)sender).Text;
 
+            panelContestant.Controls.Clear();
+            Form childForm = new InformationForm();
+            childForm.Dock = DockStyle.Fill;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.TopLevel = false;
+            panelContestant.Controls.Add(childForm);
+            childForm.Show();
         }
     }
 }

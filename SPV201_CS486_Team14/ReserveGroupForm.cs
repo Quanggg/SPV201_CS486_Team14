@@ -35,6 +35,15 @@ namespace SPV201_CS486_Team14
 
         private void btnMember_Click(object sender, EventArgs e)
         {
+            labelReserveGroup.Text = ((Button)sender).Text;
+
+            panelReserveGroup.Controls.Clear();
+            Form childForm = new InformationForm();
+            childForm.Dock = DockStyle.Fill;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.TopLevel = false;
+            panelReserveGroup.Controls.Add(childForm);
+            childForm.Show();
         }
     }
 }
