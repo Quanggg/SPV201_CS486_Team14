@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -90,6 +91,8 @@
     <EmbeddedResource Include="OfficialGroupForm.resx">
       <DependentUpon>OfficialGroupForm.cs</DependentUpon>
     </EmbeddedResource>
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="SQLText.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
