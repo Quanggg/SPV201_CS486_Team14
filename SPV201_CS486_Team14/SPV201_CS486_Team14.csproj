@@ -46,14 +46,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ContestantForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ContestantForm.Designer.cs">
+      <DependentUpon>ContestantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExaminerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExaminerForm.Designer.cs">
+      <DependentUpon>ExaminerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfficialGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfficialGroupForm.Designer.cs">
+      <DependentUpon>OfficialGroupForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReserveGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveGroupForm.Designer.cs">
+      <DependentUpon>ReserveGroupForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ContestantForm.resx">
+      <DependentUpon>ContestantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExaminerForm.resx">
+      <DependentUpon>ExaminerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficialGroupForm.resx">
+      <DependentUpon>OfficialGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReserveGroupForm.resx">
+      <DependentUpon>ReserveGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
