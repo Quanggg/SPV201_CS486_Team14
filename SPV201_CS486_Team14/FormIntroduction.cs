@@ -16,5 +16,12 @@ namespace IntroductionScreen
     {
       InitializeComponent();
     }
+
+    private void FormIntroduction_Load(object sender, EventArgs e)
+    {
+      FormConnectDB form = new FormConnectDB();
+      form.StartPosition = this.StartPosition;
+      form.ShowDialog();
+    }
   }
 }
