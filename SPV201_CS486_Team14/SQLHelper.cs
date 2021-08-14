@@ -17,9 +17,6 @@ namespace SPV201_CS486_Team14
 
         public SQLHelper(string connectionString)
         {
-            // TODO: Insert ConnectionString name tag
-            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            //string connectionStr = config.ConnectionStrings.ConnectionStrings[""].ConnectionString;
             string connectionStr = connectionString;
             connection = new SqlConnection(connectionStr);
             sqlText = new SQLText();
