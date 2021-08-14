@@ -14,16 +14,28 @@ namespace SPV201_CS486_Team14
     {
         string[] examiners, contestants, officialGroup, reserveGroup;
         int[] contestantID, officialID, reserveID;
-        public MainForm()
+        SQLHelper sqlHelper;
+        public MainForm(string connectionString)
         {
             InitializeComponent();
+            sqlHelper = new SQLHelper();
             examiners = new string []{ "abc", "xyz", "jqk"};
-            contestants = new string []{ "abc", "xyz", "jqk"};
-            officialGroup = new string []{ "abc", "xyz", "jqk"};
-            reserveGroup = new string []{ "abc", "xyz", "jqk"};
+            //examiners = sqlHelper.GetExaminersName();
+
+            contestants = new string []{ "abc", "xyz", "jqk"}; 
             contestantID = new int[] { 1, 2, 3 };
+            //contestants = sqlHelper.GetContestantsName();
+            //contestantID = sqlHelper.GetContestantsID();
+
+            officialGroup = new string []{ "abc", "xyz", "jqk"};
             officialID = new int[] { 1, 2, 3 };
+            //officialGroup = sqlHelper.GetOfficialMembersName();
+            //officialID = sqlHelper.GetOfficialMembersID();
+
+            reserveGroup = new string []{ "abc", "xyz", "jqk"};
             reserveID = new int[] { 1, 2, 3 };
+            //reserveGroup = sqlHelper.GetReserveMembersName();
+            //reserveID = sqlHelper.GetReserveMembersID();
         }
 
         Form activeForm = null;
