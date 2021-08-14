@@ -70,7 +70,7 @@ namespace SPV201_CS486_Team14
 
         public string[] GetExaminersName()
         {
-            DataTable table = ExecFuncTable(sqlText.DisplayContestants);
+            DataTable table = ExecFuncTable(sqlText.DisplayExaminers);
 
             if (table != null)
             {
