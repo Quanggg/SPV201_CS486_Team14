@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using IntroductionScreen;
 
 namespace SPV201_CS486_Team14
 {
@@ -36,6 +37,7 @@ namespace SPV201_CS486_Team14
             reserveID = new int[] { 1, 2, 3 };
             //reserveGroup = sqlHelper.GetReserveMembersName();
             //reserveID = sqlHelper.GetReserveMembersID();
+            openChildForm(new FormIntroduction());
         }
 
         Form activeForm = null;
@@ -52,7 +54,7 @@ namespace SPV201_CS486_Team14
         }
         private void btnIntroduction_Click(object sender, EventArgs e)
         {
-            openChildForm(null);
+            openChildForm(new FormIntroduction());
         }
 
         private void btnContestant_Click(object sender, EventArgs e)
