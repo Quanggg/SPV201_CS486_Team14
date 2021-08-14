@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using IntroductionScreen;
 namespace SPV201_CS486_Team14
 {
     static class Program
@@ -16,7 +16,7 @@ namespace SPV201_CS486_Team14
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm("abc"));
+            Application.Run(new FormConnectDB());
         }
     }
 }

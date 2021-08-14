@@ -1,0 +1,16 @@
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\bin\Debug\SPV201_CS486_Team14.exe.config
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\bin\Debug\SPV201_CS486_Team14.exe
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\bin\Debug\SPV201_CS486_Team14.pdb
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.ContestantForm.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.ExaminerForm.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.MainForm.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.OfficialGroupForm.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.Properties.Resources.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.ReserveGroupForm.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.csproj.GenerateResource.cache
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.csproj.CoreCompileInputs.cache
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.exe
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.pdb
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.csproj.AssemblyReference.cache
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.InformationForm.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\IntroductionScreen.FormIntroduction.resources
