@@ -103,6 +103,9 @@
     <EmbeddedResource Include="ExaminerForm.resx">
       <DependentUpon>ExaminerForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormConnectDB.resx">
+      <DependentUpon>FormConnectDB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormIntroduction.resx">
       <DependentUpon>FormIntroduction.cs</DependentUpon>
     </EmbeddedResource>

@@ -14,3 +14,4 @@ C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SP
 C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.csproj.AssemblyReference.cache
 C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\SPV201_CS486_Team14.InformationForm.resources
 C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\IntroductionScreen.FormIntroduction.resources
+C:\Users\quang\source\repos\SPV201_CS486_Team14\SPV201_CS486_Team14\obj\Debug\IntroductionScreen.FormConnectDB.resources

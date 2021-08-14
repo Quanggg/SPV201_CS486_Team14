@@ -45,7 +45,11 @@ namespace IntroductionScreen
             }
             catch (ArgumentException)
             {
-                MessageBox.Show("Cannot connect to database. Please try again!", "Error1", MessageBoxButtons.OK);
+                MessageBox.Show("Cannot connect to database. Please try again!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (InvalidOperationException)
+            {
+                MessageBox.Show("Cannot connect to database. Please try again!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             connecting = false;
         }

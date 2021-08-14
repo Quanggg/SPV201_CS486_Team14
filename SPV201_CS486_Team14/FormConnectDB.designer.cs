@@ -29,107 +29,108 @@ namespace IntroductionScreen
     /// </summary>
     private void InitializeComponent()
     {
-      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormConnectDB));
-      this.label1 = new System.Windows.Forms.Label();
-      this.textBoxConnectionString = new System.Windows.Forms.TextBox();
-      this.pictureBox1 = new System.Windows.Forms.PictureBox();
-      this.connectBtn = new System.Windows.Forms.Button();
-      this.label2 = new System.Windows.Forms.Label();
-      ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-      this.SuspendLayout();
-      // 
-      // label1
-      // 
-      this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-      this.label1.AutoSize = true;
-      this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label1.ForeColor = System.Drawing.Color.White;
-      this.label1.Location = new System.Drawing.Point(52, 22);
-      this.label1.Margin = new System.Windows.Forms.Padding(4, 16, 16, 16);
-      this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(250, 44);
-      this.label1.TabIndex = 1;
-      this.label1.Text = "Connect Your";
-      // 
-      // textBoxConnectionString
-      // 
-      this.textBoxConnectionString.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxConnectionString = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.connectBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(30, 13);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 9, 9, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(146, 26);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Connect Your";
+            // 
+            // textBoxConnectionString
+            // 
+            this.textBoxConnectionString.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-      this.textBoxConnectionString.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
-      this.textBoxConnectionString.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textBoxConnectionString.ForeColor = System.Drawing.Color.White;
-      this.textBoxConnectionString.Location = new System.Drawing.Point(20, 87);
-      this.textBoxConnectionString.Name = "textBoxConnectionString";
-      this.textBoxConnectionString.Size = new System.Drawing.Size(494, 44);
-      this.textBoxConnectionString.TabIndex = 3;
-      // 
-      // pictureBox1
-      // 
-      this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-      this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-      this.pictureBox1.Location = new System.Drawing.Point(300, 20);
-      this.pictureBox1.Name = "pictureBox1";
-      this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-      this.pictureBox1.TabIndex = 4;
-      this.pictureBox1.TabStop = false;
-      // 
-      // connectBtn
-      // 
-      this.connectBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxConnectionString.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.textBoxConnectionString.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxConnectionString.ForeColor = System.Drawing.Color.White;
+            this.textBoxConnectionString.Location = new System.Drawing.Point(11, 50);
+            this.textBoxConnectionString.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxConnectionString.Name = "textBoxConnectionString";
+            this.textBoxConnectionString.Size = new System.Drawing.Size(284, 29);
+            this.textBoxConnectionString.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(204, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 9, 9, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 26);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Here";
+            // 
+            // connectBtn
+            // 
+            this.connectBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-      this.connectBtn.AutoSize = true;
-      this.connectBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
-      this.connectBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.connectBtn.ForeColor = System.Drawing.Color.White;
-      this.connectBtn.Image = global::SPV201_CS486_Team14.Properties.Resources.plug;
-      this.connectBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-      this.connectBtn.Location = new System.Drawing.Point(155, 172);
-      this.connectBtn.Name = "connectBtn";
-      this.connectBtn.Padding = new System.Windows.Forms.Padding(16, 4, 16, 4);
-      this.connectBtn.Size = new System.Drawing.Size(206, 74);
-      this.connectBtn.TabIndex = 5;
-      this.connectBtn.Text = "Connect";
-      this.connectBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-      this.connectBtn.UseVisualStyleBackColor = false;
-      this.connectBtn.Click += new System.EventHandler(this.connectBtn_Click);
-      // 
-      // label2
-      // 
-      this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-      this.label2.AutoSize = true;
-      this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label2.ForeColor = System.Drawing.Color.White;
-      this.label2.Location = new System.Drawing.Point(357, 24);
-      this.label2.Margin = new System.Windows.Forms.Padding(4, 16, 16, 16);
-      this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(102, 44);
-      this.label2.TabIndex = 6;
-      this.label2.Text = "Here";
-      // 
-      // FormConnectDB
-      // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(168F, 168F);
-      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-      this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-      this.ClientSize = new System.Drawing.Size(526, 286);
-      this.Controls.Add(this.label2);
-      this.Controls.Add(this.connectBtn);
-      this.Controls.Add(this.pictureBox1);
-      this.Controls.Add(this.textBoxConnectionString);
-      this.Controls.Add(this.label1);
-      this.Margin = new System.Windows.Forms.Padding(4);
-      this.MaximizeBox = false;
-      this.MaximumSize = new System.Drawing.Size(550, 350);
-      this.MinimizeBox = false;
-      this.MinimumSize = new System.Drawing.Size(550, 350);
-      this.Name = "FormConnectDB";
-      this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-      this.Text = "FormConnectDB";
-      this.TopMost = true;
-      ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-      this.ResumeLayout(false);
-      this.PerformLayout();
+            this.connectBtn.AutoSize = true;
+            this.connectBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
+            this.connectBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.connectBtn.ForeColor = System.Drawing.Color.White;
+            this.connectBtn.Image = global::SPV201_CS486_Team14.Properties.Resources.plug;
+            this.connectBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.connectBtn.Location = new System.Drawing.Point(64, 98);
+            this.connectBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.connectBtn.Name = "connectBtn";
+            this.connectBtn.Padding = new System.Windows.Forms.Padding(9, 2, 9, 2);
+            this.connectBtn.Size = new System.Drawing.Size(171, 50);
+            this.connectBtn.TabIndex = 5;
+            this.connectBtn.Text = "Connect";
+            this.connectBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.connectBtn.UseVisualStyleBackColor = false;
+            this.connectBtn.Click += new System.EventHandler(this.connectBtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Location = new System.Drawing.Point(171, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // FormConnectDB
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.ClientSize = new System.Drawing.Size(305, 178);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.connectBtn);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBoxConnectionString);
+            this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(321, 217);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(321, 217);
+            this.Name = "FormConnectDB";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FormConnectDB";
+            this.TopMost = true;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
     }
 
