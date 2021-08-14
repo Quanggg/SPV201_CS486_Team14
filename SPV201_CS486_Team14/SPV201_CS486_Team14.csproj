@@ -149,5 +149,50 @@
   <ItemGroup>
     <None Include="Resources\plug.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-28280574 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hieu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hoang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Super Vocal.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
