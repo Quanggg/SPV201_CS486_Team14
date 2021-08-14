@@ -19,6 +19,8 @@ namespace SPV201_CS486_Team14
             {
                 Label labelExam = new Label();
                 labelExam.Width = 50;
+                labelExam.Height = 30;
+                labelExam.Font = new Font(FontFamily.GenericSansSerif, 10f, FontStyle.Bold);
                 labelExam.Text = examiner;
                 labelExam.AutoSize = false;
                 labelExam.Dock = DockStyle.Top;
