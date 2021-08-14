@@ -19,9 +19,9 @@ namespace SPV201_CS486_Team14
         public MainForm(string connectionString)
         {
             InitializeComponent();
-            //sqlHelper = new SQLHelper(connectionString);
+            sqlHelper = new SQLHelper(connectionString);
             examiners = new string []{ "abc", "xyz", "jqk"};
-            //examiners = sqlHelper.GetExaminersName();
+            examiners = sqlHelper.GetExaminersName();
 
             contestants = new string []{ "abc", "xyz", "jqk"}; 
             contestantID = new int[] { 1, 2, 3 };

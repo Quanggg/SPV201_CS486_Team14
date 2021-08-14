@@ -30,9 +30,9 @@ namespace SPV201_CS486_Team14
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnContestant = new System.Windows.Forms.Button();
-            this.btnOfficialGroup = new System.Windows.Forms.Button();
             this.btnReserveGroup = new System.Windows.Forms.Button();
+            this.btnOfficialGroup = new System.Windows.Forms.Button();
+            this.btnContestant = new System.Windows.Forms.Button();
             this.btnExaminer = new System.Windows.Forms.Button();
             this.btnIntroduction = new System.Windows.Forms.Button();
             this.panelPadding = new System.Windows.Forms.Panel();
@@ -54,16 +54,16 @@ namespace SPV201_CS486_Team14
             this.panelMenu.Size = new System.Drawing.Size(200, 633);
             this.panelMenu.TabIndex = 0;
             // 
-            // btnContestant
+            // btnReserveGroup
             // 
-            this.btnContestant.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnContestant.Location = new System.Drawing.Point(0, 299);
-            this.btnContestant.Name = "btnContestant";
-            this.btnContestant.Size = new System.Drawing.Size(200, 101);
-            this.btnContestant.TabIndex = 2;
-            this.btnContestant.Text = "Contestants";
-            this.btnContestant.UseVisualStyleBackColor = true;
-            this.btnContestant.Click += new System.EventHandler(this.btnContestant_Click);
+            this.btnReserveGroup.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReserveGroup.Location = new System.Drawing.Point(0, 501);
+            this.btnReserveGroup.Name = "btnReserveGroup";
+            this.btnReserveGroup.Size = new System.Drawing.Size(200, 101);
+            this.btnReserveGroup.TabIndex = 5;
+            this.btnReserveGroup.Text = "Reserve Group";
+            this.btnReserveGroup.UseVisualStyleBackColor = true;
+            this.btnReserveGroup.Click += new System.EventHandler(this.btnReserveGroup_Click);
             // 
             // btnOfficialGroup
             // 
@@ -76,16 +76,16 @@ namespace SPV201_CS486_Team14
             this.btnOfficialGroup.UseVisualStyleBackColor = true;
             this.btnOfficialGroup.Click += new System.EventHandler(this.btnOfficialGroup_Click);
             // 
-            // btnReserveGroup
+            // btnContestant
             // 
-            this.btnReserveGroup.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReserveGroup.Location = new System.Drawing.Point(0, 501);
-            this.btnReserveGroup.Name = "btnReserveGroup";
-            this.btnReserveGroup.Size = new System.Drawing.Size(200, 101);
-            this.btnReserveGroup.TabIndex = 5;
-            this.btnReserveGroup.Text = "Reserve Group";
-            this.btnReserveGroup.UseVisualStyleBackColor = true;
-            this.btnReserveGroup.Click += new System.EventHandler(this.btnReserveGroup_Click);
+            this.btnContestant.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnContestant.Location = new System.Drawing.Point(0, 299);
+            this.btnContestant.Name = "btnContestant";
+            this.btnContestant.Size = new System.Drawing.Size(200, 101);
+            this.btnContestant.TabIndex = 2;
+            this.btnContestant.Text = "Contestants";
+            this.btnContestant.UseVisualStyleBackColor = true;
+            this.btnContestant.Click += new System.EventHandler(this.btnContestant_Click);
             // 
             // btnExaminer
             // 
@@ -133,6 +133,7 @@ namespace SPV201_CS486_Team14
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelMenu);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SP201 CS486 Team14";
             this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
