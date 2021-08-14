@@ -36,28 +36,33 @@ namespace SPV201_CS486_Team14
             // labelOfficialGroup
             // 
             this.labelOfficialGroup.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelOfficialGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOfficialGroup.Location = new System.Drawing.Point(0, 0);
+            this.labelOfficialGroup.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelOfficialGroup.Name = "labelOfficialGroup";
-            this.labelOfficialGroup.Size = new System.Drawing.Size(800, 74);
+            this.labelOfficialGroup.Size = new System.Drawing.Size(1067, 91);
             this.labelOfficialGroup.TabIndex = 0;
             this.labelOfficialGroup.Text = "Official Group";
+            this.labelOfficialGroup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelOfficialGroup
             // 
             this.panelOfficialGroup.AutoScroll = true;
             this.panelOfficialGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelOfficialGroup.Location = new System.Drawing.Point(0, 74);
+            this.panelOfficialGroup.Location = new System.Drawing.Point(0, 91);
+            this.panelOfficialGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelOfficialGroup.Name = "panelOfficialGroup";
-            this.panelOfficialGroup.Size = new System.Drawing.Size(800, 376);
+            this.panelOfficialGroup.Size = new System.Drawing.Size(1067, 463);
             this.panelOfficialGroup.TabIndex = 1;
             // 
             // OfficialGroupForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelOfficialGroup);
             this.Controls.Add(this.labelOfficialGroup);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "OfficialGroupForm";
             this.Text = "OfficialGroupForm";
             this.ResumeLayout(false);

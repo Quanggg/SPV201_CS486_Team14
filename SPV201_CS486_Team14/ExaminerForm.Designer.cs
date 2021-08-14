@@ -36,28 +36,33 @@ namespace SPV201_CS486_Team14
             // labelExaminer
             // 
             this.labelExaminer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelExaminer.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelExaminer.Location = new System.Drawing.Point(0, 0);
+            this.labelExaminer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelExaminer.Name = "labelExaminer";
-            this.labelExaminer.Size = new System.Drawing.Size(800, 77);
+            this.labelExaminer.Size = new System.Drawing.Size(1067, 95);
             this.labelExaminer.TabIndex = 0;
             this.labelExaminer.Text = "Examiner";
+            this.labelExaminer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelExaminer
             // 
             this.panelExaminer.AutoScroll = true;
             this.panelExaminer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelExaminer.Location = new System.Drawing.Point(0, 77);
+            this.panelExaminer.Location = new System.Drawing.Point(0, 95);
+            this.panelExaminer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelExaminer.Name = "panelExaminer";
-            this.panelExaminer.Size = new System.Drawing.Size(800, 373);
+            this.panelExaminer.Size = new System.Drawing.Size(1067, 459);
             this.panelExaminer.TabIndex = 1;
             // 
             // ExaminerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelExaminer);
             this.Controls.Add(this.labelExaminer);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ExaminerForm";
             this.Text = "ExaminerForm";
             this.ResumeLayout(false);

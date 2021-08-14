@@ -36,28 +36,33 @@ namespace SPV201_CS486_Team14
             // labelContestant
             // 
             this.labelContestant.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelContestant.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelContestant.Location = new System.Drawing.Point(0, 0);
+            this.labelContestant.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelContestant.Name = "labelContestant";
-            this.labelContestant.Size = new System.Drawing.Size(800, 61);
+            this.labelContestant.Size = new System.Drawing.Size(1067, 75);
             this.labelContestant.TabIndex = 0;
             this.labelContestant.Text = "Contestants";
+            this.labelContestant.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelContestant
             // 
             this.panelContestant.AutoScroll = true;
             this.panelContestant.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContestant.Location = new System.Drawing.Point(0, 61);
+            this.panelContestant.Location = new System.Drawing.Point(0, 75);
+            this.panelContestant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelContestant.Name = "panelContestant";
-            this.panelContestant.Size = new System.Drawing.Size(800, 389);
+            this.panelContestant.Size = new System.Drawing.Size(1067, 479);
             this.panelContestant.TabIndex = 1;
             // 
             // ContestantForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelContestant);
             this.Controls.Add(this.labelContestant);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ContestantForm";
             this.Text = "ContestantForm";
             this.ResumeLayout(false);
